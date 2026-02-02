@@ -228,20 +228,14 @@ class TestRunner:
             else:
                 self.log.error("✗ UT61EDriver not available (import failed)")
             
-            # Create measurement test sequence if both drivers available
-            if self.relay_driver and self.meter_driver and MeasurementTestSequence:
-                try:
-                    self.measurement_test_seq = MeasurementTestSequence(
-                        relay_driver=self.relay_driver,
-                        meter_driver=self.meter_driver,
-                        logger=self.log,
-                        simulate=simulate
-                    )
-                    self.log.info("✓ MeasurementTestSequence initialized - REAL HARDWARE MODE ACTIVE")
-                except Exception as e:
-                    self.log.error(f"✗ Failed to create MeasurementTestSequence: {e}", exc_info=True)
-            else:
-                self.log.error(f"✗ Cannot create MeasurementTestSequence - relay={self.relay_driver is not None}, meter={self.meter_driver is not None}, seq_class={MeasurementTestSequence is not None}")
+            # Measurement test sequence NOT needed for HIPOT-ONLY mode
+            # Commented out to reduce overhead
+            # if self.relay_driver and self.meter_driver and MeasurementTestSequence:
+            #     try:
+            #         self.measurement_test_seq = MeasurementTestSequence(...)
+            #     except Exception as e:
+            #         self.log.error(f"✗ Failed to create MeasurementTestSequence: {e}", exc_info=True)
+            self.log.info("HIPOT-ONLY mode: Measurement test sequence disabled")
         else:
             self.log.info("TestRunner using SIMULATE mode (simulate=True in __init__)")
 
@@ -463,8 +457,26 @@ class TestRunner:
             attempt += 1
 
         
-        # Both tests passed - show success dialog. Schedule QC printing from the
-        # dialog so the sticker is printed ~1s after the dialog is shown.
+        # Both tests passed - show success dialog and schedule printing
+        # Create a non-blocking timer to print 1 second after dialog appears
+        from PyQt6.QtCore import QTimer
+        
+        def delayed_print():
+            """Print QC sticker 1 second after dialog appears"""
+            if print_qc is not None:
+                try:
+                    self.log.info(f"Printing QC sticker for WO={wo}, PN={pn}")
+                    print_qc.print_qc_sticker(work_order=wo, part_number=pn)
+                    self.log.info("QC sticker printed successfully")
+                except Exception as e:
+                    self.log.error(f"Failed to print QC sticker: {e}", exc_info=True)
+            else:
+                self.log.warning("QC printing module not available (print_qc is None)")
+        
+        # Schedule print to happen 1 second after dialog is shown
+        QTimer.singleShot(1000, delayed_print)
+        
+        # Show dialog (this blocks until user clicks CONTINUE)
         try:
             self.coordinator.show_test_passed_dialog(wo, pn)
         except Exception:
@@ -474,18 +486,11 @@ class TestRunner:
                 except TypeError:
                     TestPassedDialog.show_passed(parent=self.coordinator.get_test_window())
 
-        # QC printing is scheduled from the TestPassedDialog to occur
-        # ~1 second after the dialog is shown. No additional action needed here.
-
         # Reset all hardware after successful test
         self._reset_hardware()
 
         # IMPORTANT: Show scan window BEFORE closing test window
         # This ensures there's always a visible window, preventing Qt event loop exit
-        if hasattr(self, '_return_to_scan_callback') and self._return_to_scan_callback:
-            self._return_to_scan_callback()
-        
-        # Now close test window (scan window is already visible)
         try:
             if hasattr(self, '_return_to_scan_callback') and self._return_to_scan_callback:
                 self._return_to_scan_callback()

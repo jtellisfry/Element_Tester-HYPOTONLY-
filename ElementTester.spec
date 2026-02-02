@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\core\\test_runner.py'],
+    ['C:\\Files\\Element Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\core\\test_runner.py'],
     pathex=[],
     binaries=[],
     datas=[],

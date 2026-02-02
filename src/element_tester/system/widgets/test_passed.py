@@ -95,9 +95,14 @@ class TestPassedDialog(QtWidgets.QDialog):
         self.setLayout(layout)
     
     @staticmethod
-    def show_passed(parent=None) -> bool:
+    def show_passed(parent=None, work_order: str = "", part_number: str = "") -> bool:
         """
         Show the test passed dialog.
+        
+        Args:
+            parent: Parent widget
+            work_order: Work order number (for printing, if needed)
+            part_number: Part number (for printing, if needed)
         
         Returns:
             True when user clicks CONTINUE

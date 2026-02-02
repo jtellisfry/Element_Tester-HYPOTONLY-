@@ -1,0 +1,1 @@
+{"timestamp": "2026-02-02T17:29:48", "mode": "normal", "work_order": "testing", "part_number": "testing", "configuration": {"voltage": 220, "wattage": 8500, "resistance_range": [0.0, 0.0]}, "overall_pass": true, "hypot": {"passed": true, "message": "01,ACW,PASS,1.29,3.100,2.0"}, "measurement": {}}

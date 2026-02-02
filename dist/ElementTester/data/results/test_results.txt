@@ -1,0 +1,9 @@
+Timestamp: 2026-02-02T17:29:48
+Mode: normal
+Work Order #: testing
+Part #: testing
+Configuration: {'voltage': 220, 'wattage': 8500, 'resistance_range': (0.0, 0.0)}
+Hypot Result: 01,ACW,PASS,1.29,3.100,2.0
+Measurement Result: LP1to6:  | LP2to5:  | LP3to4:  | RP1to6:  | RP2to5:  | RP3to4:
+Overall: PASS
+------------------------------------------------------------

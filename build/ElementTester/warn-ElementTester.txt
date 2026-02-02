@@ -36,5 +36,5 @@ missing module named pyimod02_importers - imported by \\fryfs001v\eng\DEPTS\LAB\
 missing module named 'System.IO' - imported by serial.serialcli (top-level)
 missing module named System - imported by serial.serialcli (top-level)
 missing module named pyvisa - imported by element_tester.system.drivers.hypot3865.transport (optional)
-missing module named 'element_tester.programs.measurement_test.test' - imported by \\fryfs001v\eng\DEPTS\LAB\Test Engineering\Tester Information\ElementTester(Python)(HYPOTONLY)\Element_Tester\src\element_tester\system\core\test_runner.py (optional)
+missing module named 'element_tester.programs.measurement_test.test' - imported by C:\Files\Element Tester\ElementTester(Python)(HYPOTONLY)\Element_Tester\src\element_tester\system\core\test_runner.py (optional)
 missing module named aenum - imported by mcculw.enums (optional)

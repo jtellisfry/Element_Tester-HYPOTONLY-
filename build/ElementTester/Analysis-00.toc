@@ -1,7 +1,7 @@
-(['\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-  'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\core\\test_runner.py'],
- ['\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-  'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src'],
+(['C:\\Files\\Element '
+  'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\core\\test_runner.py'],
+ ['C:\\Files\\Element '
+  'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src'],
  [],
  [('L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks',
@@ -40,8 +40,8 @@
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
    'PYSOURCE'),
   ('test_runner',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\core\\test_runner.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\core\\test_runner.py',
    'PYSOURCE')],
  [('subprocess',
    'C:\\Program Files\\Python313\\Lib\\subprocess.py',
@@ -397,45 +397,45 @@
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\__init__.py',
    'PYMODULE'),
-  ('_py_abc', 'C:\\Program Files\\Python313\\Lib\\_py_abc.py', 'PYMODULE'),
-  ('_colorize', 'C:\\Program Files\\Python313\\Lib\\_colorize.py', 'PYMODULE'),
   ('tracemalloc',
    'C:\\Program Files\\Python313\\Lib\\tracemalloc.py',
    'PYMODULE'),
+  ('_colorize', 'C:\\Program Files\\Python313\\Lib\\_colorize.py', 'PYMODULE'),
+  ('_py_abc', 'C:\\Program Files\\Python313\\Lib\\_py_abc.py', 'PYMODULE'),
   ('stringprep',
    'C:\\Program Files\\Python313\\Lib\\stringprep.py',
    'PYMODULE'),
   ('element_tester.system.ui.scanning',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\ui\\scanning.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\ui\\scanning.py',
    'PYMODULE'),
   ('element_tester.system.ui',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\ui\\__init__.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\ui\\__init__.py',
    'PYMODULE'),
   ('element_tester.system',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\__init__.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\__init__.py',
    'PYMODULE'),
   ('element_tester',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\__init__.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\__init__.py',
    'PYMODULE'),
   ('element_tester.system.ui.debug',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\ui\\debug.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\ui\\debug.py',
    'PYMODULE'),
   ('element_tester.system.drivers.hypot3865.transport',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\hypot3865\\transport.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\hypot3865\\transport.py',
    'PYMODULE'),
   ('element_tester.system.drivers.hypot3865',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\hypot3865\\__init__.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\hypot3865\\__init__.py',
    'PYMODULE'),
   ('element_tester.system.drivers',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\__init__.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\__init__.py',
    'PYMODULE'),
   ('serial',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
@@ -469,97 +469,101 @@
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\serial\\serialutil.py',
    'PYMODULE'),
   ('element_tester.system.drivers.hypot3865.commands',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\hypot3865\\commands.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\hypot3865\\commands.py',
    'PYMODULE'),
   ('argparse', 'C:\\Program Files\\Python313\\Lib\\argparse.py', 'PYMODULE'),
   ('element_tester.system.ui.configuration_ui',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\ui\\configuration_ui.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\ui\\configuration_ui.py',
    'PYMODULE'),
   ('element_tester.system.procedures.print_qc',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\procedures\\print_qc.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\procedures\\print_qc.py',
    'PYMODULE'),
   ('element_tester.system.procedures',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\procedures\\__init__.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\procedures\\__init__.py',
+   'PYMODULE'),
+  ('win32con',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\win32\\lib\\win32con.py',
    'PYMODULE'),
   ('element_tester.system.procedures.measurement_test_procedures',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\procedures\\measurement_test_procedures.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\procedures\\measurement_test_procedures.py',
    'PYMODULE'),
   ('element_tester.system.drivers.meter_ut61e.driver',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\meter_ut61e\\driver.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\meter_ut61e\\driver.py',
    'PYMODULE'),
   ('element_tester.system.drivers.meter_ut61e',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\meter_ut61e\\__init__.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\meter_ut61e\\__init__.py',
    'PYMODULE'),
   ('element_tester.system.drivers.meter_ut61e.transport',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\meter_ut61e\\transport.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\meter_ut61e\\transport.py',
    'PYMODULE'),
   ('element_tester.system.drivers.meter_ut61e.errors',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\meter_ut61e\\errors.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\meter_ut61e\\errors.py',
    'PYMODULE'),
   ('element_tester.system.drivers.meter_ut61e.commands',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\meter_ut61e\\commands.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\meter_ut61e\\commands.py',
    'PYMODULE'),
   ('element_tester.system.drivers.meter_ut61e.procedures',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\meter_ut61e\\procedures.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\meter_ut61e\\procedures.py',
    'PYMODULE'),
   ('element_tester.system.widgets.test_passed',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\widgets\\test_passed.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\widgets\\test_passed.py',
    'PYMODULE'),
   ('element_tester.system.widgets',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\widgets\\__init__.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\widgets\\__init__.py',
    'PYMODULE'),
   ('element_tester.system.widgets.continue_retry_exit',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\widgets\\continue_retry_exit.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\widgets\\continue_retry_exit.py',
    'PYMODULE'),
   ('element_tester.system.widgets.continue_exit',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\widgets\\continue_exit.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\widgets\\continue_exit.py',
    'PYMODULE'),
   ('element_tester.programs.hipot_test.test',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\programs\\hipot_test\\test.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\programs\\hipot_test\\test.py',
    'PYMODULE'),
   ('element_tester.programs.hipot_test',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\programs\\hipot_test\\__init__.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\programs\\hipot_test\\__init__.py',
    'PYMODULE'),
   ('element_tester.programs',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\programs\\__init__.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\programs\\__init__.py',
    'PYMODULE'),
   ('element_tester.system.procedures.hipot_test_procedures',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\procedures\\hipot_test_procedures.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\procedures\\hipot_test_procedures.py',
    'PYMODULE'),
   ('element_tester.system.drivers.relay_mcc.driver',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\relay_mcc\\driver.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\relay_mcc\\driver.py',
    'PYMODULE'),
   ('element_tester.system.drivers.relay_mcc',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\relay_mcc\\__init__.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\relay_mcc\\__init__.py',
    'PYMODULE'),
   ('element_tester.system.drivers.relay_mcc.commands',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\relay_mcc\\commands.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\relay_mcc\\commands.py',
    'PYMODULE'),
   ('element_tester.system.drivers.relay_mcc.transport',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\relay_mcc\\transport.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\relay_mcc\\transport.py',
    'PYMODULE'),
   ('mcculw.enums',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
@@ -596,32 +600,32 @@
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\mcculw\\__init__.py',
    'PYMODULE'),
   ('element_tester.system.drivers.relay_mcc.errors',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\relay_mcc\\errors.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\relay_mcc\\errors.py',
    'PYMODULE'),
   ('element_tester.system.drivers.relay_mcc.procedures',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\relay_mcc\\procedures.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\relay_mcc\\procedures.py',
    'PYMODULE'),
   ('element_tester.system.drivers.hypot3865.driver',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\hypot3865\\driver.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\hypot3865\\driver.py',
    'PYMODULE'),
   ('element_tester.system.drivers.hypot3865.procedures',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\hypot3865\\procedures.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\drivers\\hypot3865\\procedures.py',
    'PYMODULE'),
   ('PyQt6',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\__init__.py',
    'PYMODULE'),
   ('element_tester.system.ui.test_coordinator',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\ui\\test_coordinator.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\ui\\test_coordinator.py',
    'PYMODULE'),
   ('element_tester.system.ui.testing',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\ui\\testing.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\ui\\testing.py',
    'PYMODULE'),
   ('concurrent.futures',
    'C:\\Program Files\\Python313\\Lib\\concurrent\\futures\\__init__.py',
@@ -671,25 +675,29 @@
    'C:\\Program Files\\Python313\\Lib\\__future__.py',
    'PYMODULE')],
  [('python313.dll', 'C:\\Program Files\\Python313\\python313.dll', 'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
+  ('PyQt6\\Qt6\\plugins\\platforms\\qwindows.dll',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qwindows.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
+  ('PyQt6\\Qt6\\plugins\\platforms\\qoffscreen.dll',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qoffscreen.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\plugins\\generic\\qtuiotouchplugin.dll',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
@@ -699,25 +707,21 @@
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
    'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
   ('PyQt6\\Qt6\\plugins\\imageformats\\qsvg.dll',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qsvg.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\platforms\\qwindows.dll',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qwindows.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\platforms\\qoffscreen.dll',
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qoffscreen.dll',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
@@ -727,9 +731,9 @@
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwebp.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
+  ('PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\plugins\\styles\\qmodernwindowsstyle.dll',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
@@ -766,17 +770,25 @@
    'C:\\Program Files\\Python313\\DLLs\\_ctypes.pyd',
    'EXTENSION'),
   ('_queue.pyd', 'C:\\Program Files\\Python313\\DLLs\\_queue.pyd', 'EXTENSION'),
-  ('PyQt6\\QtCore.pyd',
+  ('PyQt6\\QtGui.pyd',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\QtCore.pyd',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\QtGui.pyd',
    'EXTENSION'),
   ('PyQt6\\sip.cp313-win_amd64.pyd',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\sip.cp313-win_amd64.pyd',
    'EXTENSION'),
-  ('PyQt6\\QtGui.pyd',
+  ('PyQt6\\QtCore.pyd',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\QtGui.pyd',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\QtCore.pyd',
+   'EXTENSION'),
+  ('Pythonwin\\win32ui.pyd',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\Pythonwin\\win32ui.pyd',
+   'EXTENSION'),
+  ('win32\\win32print.pyd',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\win32\\win32print.pyd',
    'EXTENSION'),
   ('hid.cp313-win_amd64.pyd',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
@@ -786,83 +798,83 @@
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\QtWidgets.pyd',
    'EXTENSION'),
-  ('api-ms-win-crt-environment-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-process-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-process-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-conio-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-time-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-time-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-heap-l1-1-0.dll',
    'C:\\Program '
    'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-string-l1-1-0.dll',
    'C:\\Program '
    'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-string-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-stdio-l1-1-0.dll',
+  ('api-ms-win-crt-locale-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+  ('api-ms-win-crt-conio-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-runtime-l1-1-0.dll',
    'C:\\Program '
    'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-math-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-math-l1-1-0.dll',
-   'BINARY'),
-  ('VCRUNTIME140.dll',
-   'C:\\Program Files\\Python313\\VCRUNTIME140.dll',
-   'BINARY'),
   ('api-ms-win-crt-convert-l1-1-0.dll',
    'C:\\Program '
    'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-locale-l1-1-0.dll',
+  ('api-ms-win-crt-process-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-process-l1-1-0.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\bin\\Qt6Svg.dll',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Svg.dll',
+  ('VCRUNTIME140.dll',
+   'C:\\Program Files\\Python313\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\bin\\Qt6Core.dll',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Core.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\bin\\Qt6Gui.dll',
+  ('PyQt6\\Qt6\\bin\\MSVCP140.dll',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Gui.dll',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\MSVCP140.dll',
    'BINARY'),
   ('VCRUNTIME140_1.dll',
    'C:\\Program Files\\Python313\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Gui.dll',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Gui.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\bin\\Qt6Network.dll',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Network.dll',
    'BINARY'),
-  ('PyQt6\\Qt6\\bin\\MSVCP140.dll',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\MSVCP140.dll',
-   'BINARY'),
   ('PyQt6\\Qt6\\bin\\Qt6Pdf.dll',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Pdf.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Svg.dll',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Svg.dll',
    'BINARY'),
   ('api-ms-win-crt-utility-l1-1-0.dll',
    'C:\\Program '
@@ -872,11 +884,11 @@
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Widgets.dll',
    'BINARY'),
-  ('libssl-3.dll',
-   'C:\\Program Files\\Python313\\DLLs\\libssl-3.dll',
-   'BINARY'),
   ('libcrypto-3.dll',
    'C:\\Program Files\\Python313\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Program Files\\Python313\\DLLs\\libssl-3.dll',
    'BINARY'),
   ('libffi-8.dll',
    'C:\\Program Files\\Python313\\DLLs\\libffi-8.dll',
@@ -886,16 +898,20 @@
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\MSVCP140_2.dll',
    'BINARY'),
+  ('pywin32_system32\\pywintypes313.dll',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\pywin32_system32\\pywintypes313.dll',
+   'BINARY'),
+  ('Pythonwin\\mfc140u.dll',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\Pythonwin\\mfc140u.dll',
+   'BINARY'),
   ('ucrtbase.dll',
    'C:\\Program Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\ucrtbase.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\bin\\VCRUNTIME140.dll',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\VCRUNTIME140.dll',
-   'BINARY'),
-  ('PyQt6\\Qt6\\bin\\VCRUNTIME140_1.dll',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\VCRUNTIME140_1.dll',
    'BINARY'),
   ('PyQt6\\Qt6\\bin\\MSVCP140_1.dll',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
@@ -905,115 +921,183 @@
    'C:\\Program '
    'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-synch-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+  ('PyQt6\\Qt6\\bin\\VCRUNTIME140_1.dll',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\VCRUNTIME140_1.dll',
    'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
+  ('api-ms-win-crt-multibyte-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-file-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-handle-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-handle-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-crt-multibyte-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-console-l1-1-0.dll',
    'C:\\Program '
    'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-console-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-file-l2-1-0.dll',
    'C:\\Program '
    'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-file-l2-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
    'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-util-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-memory-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-memory-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-errorhandling-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
    'BINARY'),
   ('api-ms-win-core-string-l1-1-0.dll',
    'C:\\Program '
    'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-string-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
+  ('api-ms-win-core-handle-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-handle-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-datetime-l1-1-0.dll',
    'C:\\Program '
    'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+  ('api-ms-win-core-file-l1-2-0.dll',
    'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-file-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
+  ('api-ms-win-core-debug-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-heap-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-libraryloader-l1-1-0.dll',
    'C:\\Program '
    'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-file-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-file-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-processenvironment-l1-1-0.dll',
    'C:\\Program '
    'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-1.dll',
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-profile-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-localization-l1-2-0.dll',
    'C:\\Program '
    'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-localization-l1-2-0.dll',
    'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-core-interlocked-l1-1-0.dll',
    'C:\\Program '
    'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Semeru\\jdk-21.0.6.7-openj9\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
    'BINARY')],
  [],
  [],
- [('PyQt6\\Qt6\\translations\\qt_ca.qm',
+ [('PyQt6\\Qt6\\translations\\qt_ka.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ca.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ka.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_bg.qm',
+  ('PyQt6\\Qt6\\translations\\qtbase_uk.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_bg.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_fr.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_de.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_hu.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_it.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_lg.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_lg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_nl.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fr.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fr.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qtbase_pl.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_bg.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_bg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_da.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_nl.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_he.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_da.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_nn.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nn.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_sv.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_sv.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qt_ko.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
@@ -1023,297 +1107,149 @@
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_tr.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ru.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ru.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_pl.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ru.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ru.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_it.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_it.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ka.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ka.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_he.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_he.qm',
-   'DATA'),
   ('PyQt6\\Qt6\\translations\\qtbase_sk.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_sk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_fa.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fa.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_fi.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fi.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_hr.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ar.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ar.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_sl.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_en.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_en.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_it.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_it.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_cs.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_cs.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_lg.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_lg.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_bg.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_bg.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ar.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ar.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_hr.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_fi.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fi.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_gd.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gd.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_cs.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_cs.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_es.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_es.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ja.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ja.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_sv.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_sv.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_hu.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hu.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_hr.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_es.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_es.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_hu.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hu.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_de.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_de.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_sv.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sv.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qt_en.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_en.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_gl.qm',
+  ('PyQt6\\Qt6\\translations\\qtbase_cs.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_gl.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_cs.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_gd.qm',
+  ('PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_gd.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_fr.qm',
+  ('PyQt6\\Qt6\\translations\\qt_uk.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ka.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ka.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_nn.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nn.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_pl.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_da.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_da.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_nn.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nn.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_sl.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_es.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_es.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_it.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_it.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_uk.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qt_help_fr.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_fr.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ru.qm',
+  ('PyQt6\\Qt6\\translations\\qt_help_cs.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ru.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_cs.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_sk.qm',
+  ('PyQt6\\Qt6\\translations\\qtbase_hr.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sk.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hr.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_cs.qm',
+  ('PyQt6\\Qt6\\translations\\qt_help_ka.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_cs.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ka.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
+  ('PyQt6\\Qt6\\translations\\qt_fi.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_lv.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_lv.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_bg.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_bg.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_nl.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_hu.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hu.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_en.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_en.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fi.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qtbase_de.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_de.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_lg.qm',
+  ('PyQt6\\Qt6\\translations\\qt_it.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lg.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_tr.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_tr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_he.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_he.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ar.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ar.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_uk.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_uk.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ja.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ja.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_uk.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_uk.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_it.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qtbase_ko.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ko.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_sk.qm',
+  ('PyQt6\\Qt6\\translations\\qt_es.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sk.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_es.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ja.qm',
+  ('PyQt6\\Qt6\\translations\\qt_help_sv.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ja.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sv.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_da.qm',
+  ('PyQt6\\Qt6\\translations\\qt_pl.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_da.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pl.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_tr.qm',
+  ('PyQt6\\Qt6\\translations\\qtbase_ca.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_tr.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_hr.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_en.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_hu.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_nn.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nn.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_cs.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_da.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_lt.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lt.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ca.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_hr.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_fa.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fa.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_tr.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sv.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_bg.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_pl.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_he.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_he.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_nl.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ca.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ca.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
@@ -1323,106 +1259,189 @@
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ko.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_fr.qm',
+  ('PyQt6\\Qt6\\translations\\qt_gd.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fr.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_sv.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sv.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_nn.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nn.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_gl.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gl.qm',
-   'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_de.qm',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_de.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gd.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_ka.qm',
+  ('PyQt6\\Qt6\\translations\\qtbase_en.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ka.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_en.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_nl.qm',
+  ('PyQt6\\Qt6\\translations\\qtbase_gd.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nl.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_de.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_de.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qtbase_fa.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fa.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_lt.qm',
+  ('PyQt6\\Qt6\\translations\\qt_help_sl.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lt.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sl.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_nl.qm',
+  ('PyQt6\\Qt6\\translations\\qt_help_gl.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nl.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_gl.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_da.qm',
+  ('PyQt6\\Qt6\\translations\\qt_tr.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_da.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_tr.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_uk.qm',
+  ('PyQt6\\Qt6\\translations\\qt_help_it.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_uk.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_it.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qt_help_ca.qm',
+  ('PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ca.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
    'DATA'),
-  ('PyQt6\\Qt6\\translations\\qtbase_ca.qm',
+  ('PyQt6\\Qt6\\translations\\qt_help_bg.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ca.qm',
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ja.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ar.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_es.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fi.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_lv.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_es.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sl.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ru.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_gl.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_lg.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lg.qm',
    'DATA'),
   ('PyQt6\\Qt6\\translations\\qt_lv.qm',
    'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
    'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lv.qm',
    'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ja.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ar.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_uk.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_uk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_sk.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ar.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ja.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_nn.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nn.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ka.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ka.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ru.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sk.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_hu.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ru.qm',
+   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
+   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ru.qm',
+   'DATA'),
   ('base_library.zip',
-   'L:\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\build\\ElementTester\\base_library.zip',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\build\\ElementTester\\base_library.zip',
    'DATA')],
- [('collections',
-   'C:\\Program Files\\Python313\\Lib\\collections\\__init__.py',
-   'PYMODULE'),
-  ('keyword', 'C:\\Program Files\\Python313\\Lib\\keyword.py', 'PYMODULE'),
-  ('posixpath', 'C:\\Program Files\\Python313\\Lib\\posixpath.py', 'PYMODULE'),
-  ('stat', 'C:\\Program Files\\Python313\\Lib\\stat.py', 'PYMODULE'),
-  ('abc', 'C:\\Program Files\\Python313\\Lib\\abc.py', 'PYMODULE'),
-  ('types', 'C:\\Program Files\\Python313\\Lib\\types.py', 'PYMODULE'),
-  ('enum', 'C:\\Program Files\\Python313\\Lib\\enum.py', 'PYMODULE'),
-  ('locale', 'C:\\Program Files\\Python313\\Lib\\locale.py', 'PYMODULE'),
-  ('traceback', 'C:\\Program Files\\Python313\\Lib\\traceback.py', 'PYMODULE'),
-  ('_collections_abc',
-   'C:\\Program Files\\Python313\\Lib\\_collections_abc.py',
-   'PYMODULE'),
-  ('_weakrefset',
+ [('_weakrefset',
    'C:\\Program Files\\Python313\\Lib\\_weakrefset.py',
    'PYMODULE'),
-  ('sre_compile',
-   'C:\\Program Files\\Python313\\Lib\\sre_compile.py',
-   'PYMODULE'),
-  ('codecs', 'C:\\Program Files\\Python313\\Lib\\codecs.py', 'PYMODULE'),
-  ('warnings', 'C:\\Program Files\\Python313\\Lib\\warnings.py', 'PYMODULE'),
+  ('weakref', 'C:\\Program Files\\Python313\\Lib\\weakref.py', 'PYMODULE'),
   ('copyreg', 'C:\\Program Files\\Python313\\Lib\\copyreg.py', 'PYMODULE'),
-  ('functools', 'C:\\Program Files\\Python313\\Lib\\functools.py', 'PYMODULE'),
-  ('reprlib', 'C:\\Program Files\\Python313\\Lib\\reprlib.py', 'PYMODULE'),
-  ('sre_parse', 'C:\\Program Files\\Python313\\Lib\\sre_parse.py', 'PYMODULE'),
-  ('heapq', 'C:\\Program Files\\Python313\\Lib\\heapq.py', 'PYMODULE'),
-  ('sre_constants',
-   'C:\\Program Files\\Python313\\Lib\\sre_constants.py',
+  ('enum', 'C:\\Program Files\\Python313\\Lib\\enum.py', 'PYMODULE'),
+  ('locale', 'C:\\Program Files\\Python313\\Lib\\locale.py', 'PYMODULE'),
+  ('collections',
+   'C:\\Program Files\\Python313\\Lib\\collections\\__init__.py',
    'PYMODULE'),
   ('io', 'C:\\Program Files\\Python313\\Lib\\io.py', 'PYMODULE'),
-  ('weakref', 'C:\\Program Files\\Python313\\Lib\\weakref.py', 'PYMODULE'),
+  ('keyword', 'C:\\Program Files\\Python313\\Lib\\keyword.py', 'PYMODULE'),
+  ('genericpath',
+   'C:\\Program Files\\Python313\\Lib\\genericpath.py',
+   'PYMODULE'),
+  ('posixpath', 'C:\\Program Files\\Python313\\Lib\\posixpath.py', 'PYMODULE'),
+  ('heapq', 'C:\\Program Files\\Python313\\Lib\\heapq.py', 'PYMODULE'),
+  ('operator', 'C:\\Program Files\\Python313\\Lib\\operator.py', 'PYMODULE'),
+  ('warnings', 'C:\\Program Files\\Python313\\Lib\\warnings.py', 'PYMODULE'),
+  ('sre_parse', 'C:\\Program Files\\Python313\\Lib\\sre_parse.py', 'PYMODULE'),
+  ('types', 'C:\\Program Files\\Python313\\Lib\\types.py', 'PYMODULE'),
+  ('traceback', 'C:\\Program Files\\Python313\\Lib\\traceback.py', 'PYMODULE'),
+  ('ntpath', 'C:\\Program Files\\Python313\\Lib\\ntpath.py', 'PYMODULE'),
+  ('stat', 'C:\\Program Files\\Python313\\Lib\\stat.py', 'PYMODULE'),
+  ('abc', 'C:\\Program Files\\Python313\\Lib\\abc.py', 'PYMODULE'),
+  ('os', 'C:\\Program Files\\Python313\\Lib\\os.py', 'PYMODULE'),
+  ('linecache', 'C:\\Program Files\\Python313\\Lib\\linecache.py', 'PYMODULE'),
   ('re._parser',
    'C:\\Program Files\\Python313\\Lib\\re\\_parser.py',
    'PYMODULE'),
@@ -1436,6 +1455,9 @@
    'C:\\Program Files\\Python313\\Lib\\re\\_casefix.py',
    'PYMODULE'),
   ('re', 'C:\\Program Files\\Python313\\Lib\\re\\__init__.py', 'PYMODULE'),
+  ('sre_constants',
+   'C:\\Program Files\\Python313\\Lib\\sre_constants.py',
+   'PYMODULE'),
   ('encodings.zlib_codec',
    'C:\\Program Files\\Python313\\Lib\\encodings\\zlib_codec.py',
    'PYMODULE'),
@@ -1802,10 +1824,12 @@
   ('encodings',
    'C:\\Program Files\\Python313\\Lib\\encodings\\__init__.py',
    'PYMODULE'),
-  ('os', 'C:\\Program Files\\Python313\\Lib\\os.py', 'PYMODULE'),
-  ('genericpath',
-   'C:\\Program Files\\Python313\\Lib\\genericpath.py',
+  ('_collections_abc',
+   'C:\\Program Files\\Python313\\Lib\\_collections_abc.py',
    'PYMODULE'),
-  ('linecache', 'C:\\Program Files\\Python313\\Lib\\linecache.py', 'PYMODULE'),
-  ('operator', 'C:\\Program Files\\Python313\\Lib\\operator.py', 'PYMODULE'),
-  ('ntpath', 'C:\\Program Files\\Python313\\Lib\\ntpath.py', 'PYMODULE')])
+  ('codecs', 'C:\\Program Files\\Python313\\Lib\\codecs.py', 'PYMODULE'),
+  ('functools', 'C:\\Program Files\\Python313\\Lib\\functools.py', 'PYMODULE'),
+  ('sre_compile',
+   'C:\\Program Files\\Python313\\Lib\\sre_compile.py',
+   'PYMODULE'),
+  ('reprlib', 'C:\\Program Files\\Python313\\Lib\\reprlib.py', 'PYMODULE')])

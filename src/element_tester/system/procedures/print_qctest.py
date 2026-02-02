@@ -175,25 +175,6 @@ def print_with_powershell(text: str, printer_name: str) -> bool:
         return False
 
 
-def print_qc_sticker(work_order: str, part_number: str, printer_name: str = PRINTER_NAME) -> bool:
-    """
-    Print QC sticker for passed test.
-    
-    Args:
-        work_order: Work order number
-        part_number: Part number
-        printer_name: Printer to use (default: Brother PT-P700)
-    
-    Returns:
-        True if successful, False otherwise
-    """
-    timestamp = time.strftime("%Y-%m-%d")
-    text = f"PASSED\nWO:{work_order}\nPN:{part_number}\nTS: {timestamp}\n"
-    
-    # Use GDI method (most reliable for Brother label printers)
-    return print_with_win32_gdi(text, printer_name)
-
-
 def main():
     print("=" * 60)
     print("QC Print Test - Bypassing Notepad")

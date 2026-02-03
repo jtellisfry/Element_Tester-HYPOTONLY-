@@ -438,10 +438,11 @@ class TestRunner:
                     choice = "EXIT"
 
                 if choice == "RETRY":
-                    pass
+                    self.log.info("Operator chose to retry hipot test")
+                    pass  # Loop will retry
                 elif choice == "CONTINUE":
-                    self.log.warning(f"Hipot test failed but operator chose to continue: {hip_msg}")
-                    break
+                    self.log.info("Operator chose to continue (will retry hipot test)")
+                    pass  # Loop will retry (same behavior as RETRY)
                 else:  # EXIT
                     self._reset_hardware()
                     try:
@@ -452,17 +453,17 @@ class TestRunner:
                     except Exception:
                         pass
                     return False, f"Hipot failed: {hip_msg} (operator cancelled)", hip_detail, {}
-                # If continue, loop will retry
+                # Loop will retry
             
             attempt += 1
 
         
-        # Both tests passed - show success dialog and schedule printing
-        # Create a non-blocking timer to print 1 second after dialog appears
-        from PyQt6.QtCore import QTimer
+        # Both tests passed - show success dialog with print callback
+        self.log.info(f"Hipot test PASSED - will print QC sticker 1 second after dialog appears (print_qc available: {print_qc is not None})")
         
-        def delayed_print():
-            """Print QC sticker 1 second after dialog appears"""
+        # Create print callback function
+        def print_callback():
+            """Print QC sticker - called 1 second after dialog appears"""
             if print_qc is not None:
                 try:
                     self.log.info(f"Printing QC sticker for WO={wo}, PN={pn}")
@@ -473,18 +474,15 @@ class TestRunner:
             else:
                 self.log.warning("QC printing module not available (print_qc is None)")
         
-        # Schedule print to happen 1 second after dialog is shown
-        QTimer.singleShot(1000, delayed_print)
-        
-        # Show dialog (this blocks until user clicks CONTINUE)
+        # Show dialog (blocks until user clicks CONTINUE, but print will fire 1 second after it appears)
         try:
-            self.coordinator.show_test_passed_dialog(wo, pn)
+            self.coordinator.show_test_passed_dialog(wo, pn, print_callback=print_callback)
         except Exception:
             if TestPassedDialog:
                 try:
-                    TestPassedDialog.show_passed(parent=self.coordinator.get_test_window(), work_order=wo, part_number=pn)
+                    TestPassedDialog.show_passed(parent=self.coordinator.get_test_window(), work_order=wo, part_number=pn, print_callback=print_callback)
                 except TypeError:
-                    TestPassedDialog.show_passed(parent=self.coordinator.get_test_window())
+                    TestPassedDialog.show_passed(parent=self.coordinator.get_test_window(), print_callback=print_callback)
 
         # Reset all hardware after successful test
         self._reset_hardware()

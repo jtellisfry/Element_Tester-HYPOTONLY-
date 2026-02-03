@@ -88,7 +88,7 @@ class ScanWindow(QtWidgets.QWidget):
 
         # ---- Revision Date (bottom left) ----
         revision_row = QtWidgets.QHBoxLayout()
-        self.revision_label = QtWidgets.QLabel("Last Revision: January 9, 2026 | 12:43PM")
+        self.revision_label = QtWidgets.QLabel("Last Revision: February 3, 2026 | 10:33AM")
         self.revision_label.setStyleSheet(
             """
             QLabel {

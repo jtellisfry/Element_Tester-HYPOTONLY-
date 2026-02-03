@@ -35,28 +35,24 @@
    'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\build\\ElementTester\\localpycs\\pyimod04_pywin32.pyc',
    'PYMODULE'),
   ('pyiboot01_bootstrap',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
    'PYSOURCE'),
   ('pyi_rth_inspect',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test '
-   'Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
-   'PYSOURCE'),
-  ('pyi_rth_pyqt6',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test '
-   'Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt6.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
   ('pyi_rth_pkgutil',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test '
-   'Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt6',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt6.py',
    'PYSOURCE'),
   ('pyi_rth_multiprocessing',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test '
-   'Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
    'PYSOURCE'),
   ('test_runner',
    'C:\\Files\\Element '

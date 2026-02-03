@@ -10,8 +10,10 @@ from PyQt6 import QtWidgets, QtCore, QtGui
 class TestPassedDialog(QtWidgets.QDialog):
     """Dialog shown when test passes"""
     
-    def __init__(self, parent=None):
+    def __init__(self, parent=None, print_callback=None):
         super().__init__(parent)
+        self.print_callback = print_callback
+        self._print_triggered = False
         self.setWindowTitle("Test Passed")
         self.setModal(True)
         self.setMinimumSize(400, 300)
@@ -94,8 +96,17 @@ class TestPassedDialog(QtWidgets.QDialog):
         
         self.setLayout(layout)
     
+    def showEvent(self, event):
+        """Override showEvent to trigger print 1 second after dialog appears"""
+        super().showEvent(event)
+        # Only trigger print once
+        if self.print_callback and not self._print_triggered:
+            self._print_triggered = True
+            # Schedule print for 1 second after dialog appears
+            QtCore.QTimer.singleShot(1000, self.print_callback)
+    
     @staticmethod
-    def show_passed(parent=None, work_order: str = "", part_number: str = "") -> bool:
+    def show_passed(parent=None, work_order: str = "", part_number: str = "", print_callback=None) -> bool:
         """
         Show the test passed dialog.
         
@@ -103,10 +114,16 @@ class TestPassedDialog(QtWidgets.QDialog):
             parent: Parent widget
             work_order: Work order number (for printing, if needed)
             part_number: Part number (for printing, if needed)
+            print_callback: Optional callback to trigger printing 1 second after dialog appears
         
         Returns:
             True when user clicks CONTINUE
         """
-        dialog = TestPassedDialog(parent)
+        dialog = TestPassedDialog(parent, print_callback=print_callback)
         result = dialog.exec()
         return result == QtWidgets.QDialog.DialogCode.Accepted
+        dialog = TestPassedDialog(parent)
+        dialog.open()  # Use open() instead of exec() - non-blocking but still modal
+        # Note: open() returns immediately, dialog stays visible until user clicks CONTINUE
+        # The accepted/rejected signals will fire when user interacts with dialog
+        return True

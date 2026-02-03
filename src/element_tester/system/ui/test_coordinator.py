@@ -355,21 +355,22 @@ class TestCoordinator:
         except Exception:
             return False
     
-    def show_test_passed_dialog(self, work_order: str, part_number: str) -> None:
+    def show_test_passed_dialog(self, work_order: str, part_number: str, print_callback=None) -> None:
         """
         Show "Test Passed" success dialog.
         
         Args:
             work_order: Work order number
             part_number: Part number
+            print_callback: Optional callback to trigger printing 1 second after dialog appears
         """
         try:
             from element_tester.system.widgets.test_passed import TestPassedDialog
             try:
-                TestPassedDialog.show_passed(parent=self.test_window, work_order=work_order, part_number=part_number)
+                TestPassedDialog.show_passed(parent=self.test_window, work_order=work_order, part_number=part_number, print_callback=print_callback)
             except TypeError:
                 # Fallback if older signature present
-                TestPassedDialog.show_passed(parent=self.test_window)
+                TestPassedDialog.show_passed(parent=self.test_window, print_callback=print_callback)
         except Exception as e:
             print(f"Could not show test passed dialog: {e}")
     

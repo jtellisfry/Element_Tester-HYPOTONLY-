@@ -228,20 +228,14 @@ class TestRunner:
             else:
                 self.log.error("✗ UT61EDriver not available (import failed)")
             
-            # Create measurement test sequence if both drivers available
-            if self.relay_driver and self.meter_driver and MeasurementTestSequence:
-                try:
-                    self.measurement_test_seq = MeasurementTestSequence(
-                        relay_driver=self.relay_driver,
-                        meter_driver=self.meter_driver,
-                        logger=self.log,
-                        simulate=simulate
-                    )
-                    self.log.info("✓ MeasurementTestSequence initialized - REAL HARDWARE MODE ACTIVE")
-                except Exception as e:
-                    self.log.error(f"✗ Failed to create MeasurementTestSequence: {e}", exc_info=True)
-            else:
-                self.log.error(f"✗ Cannot create MeasurementTestSequence - relay={self.relay_driver is not None}, meter={self.meter_driver is not None}, seq_class={MeasurementTestSequence is not None}")
+            # Measurement test sequence NOT needed for HIPOT-ONLY mode
+            # Commented out to reduce overhead
+            # if self.relay_driver and self.meter_driver and MeasurementTestSequence:
+            #     try:
+            #         self.measurement_test_seq = MeasurementTestSequence(...)
+            #     except Exception as e:
+            #         self.log.error(f"✗ Failed to create MeasurementTestSequence: {e}", exc_info=True)
+            self.log.info("HIPOT-ONLY mode: Measurement test sequence disabled")
         else:
             self.log.info("TestRunner using SIMULATE mode (simulate=True in __init__)")
 
@@ -434,10 +428,11 @@ class TestRunner:
                     choice = "EXIT"
 
                 if choice == "RETRY":
-                    pass
+                    self.log.info("Operator chose to retry hipot test")
+                    pass  # Loop will retry
                 elif choice == "CONTINUE":
-                    self.log.warning(f"Hipot test failed but operator chose to continue: {hip_msg}")
-                    break
+                    self.log.info("Operator chose to continue (will retry hipot test)")
+                    pass  # Loop will retry (same behavior as RETRY)
                 else:  # EXIT
                     self._reset_hardware()
                     try:
@@ -448,13 +443,14 @@ class TestRunner:
                     except Exception:
                         pass
                     return False, f"Hipot failed: {hip_msg} (operator cancelled)", hip_detail, {}
-                # If continue, loop will retry
+                # Loop will retry
             
             attempt += 1
 
         # HIPOT-ONLY: Hipot passed, show success dialog and print QC sticker
         # No measurements needed in this version
         
+<<<<<<< HEAD
         # Show test passed dialog - QC printing is triggered automatically in showEvent
         try:
             self.coordinator.show_test_passed_dialog(wo, pn)
@@ -473,12 +469,44 @@ class TestRunner:
 
         # Process any remaining Qt events before window transitions
         QtWidgets.QApplication.processEvents()
+=======
+        # Both tests passed - show success dialog with print callback
+        self.log.info(f"Hipot test PASSED - will print QC sticker 1 second after dialog appears (print_qc available: {print_qc is not None})")
+        
+        # Create print callback function
+        def print_callback():
+            """Print QC sticker - called 1 second after dialog appears"""
+            if print_qc is not None:
+                try:
+                    self.log.info(f"Printing QC sticker for WO={wo}, PN={pn}")
+                    print_qc.print_qc_sticker(work_order=wo, part_number=pn)
+                    self.log.info("QC sticker printed successfully")
+                except Exception as e:
+                    self.log.error(f"Failed to print QC sticker: {e}", exc_info=True)
+            else:
+                self.log.warning("QC printing module not available (print_qc is None)")
+        
+        # Show dialog (blocks until user clicks CONTINUE, but print will fire 1 second after it appears)
+        try:
+            self.coordinator.show_test_passed_dialog(wo, pn, print_callback=print_callback)
+        except Exception:
+            if TestPassedDialog:
+                try:
+                    TestPassedDialog.show_passed(parent=self.coordinator.get_test_window(), work_order=wo, part_number=pn, print_callback=print_callback)
+                except TypeError:
+                    TestPassedDialog.show_passed(parent=self.coordinator.get_test_window(), print_callback=print_callback)
+>>>>>>> dc802726279b639511383d34ced0ddfdf896d6f0
 
         # Reset all hardware after successful test
         self._reset_hardware()
 
+<<<<<<< HEAD
         # IMPORTANT: AFTER dialog is dismissed, transition back to scan window
         # This ensures proper sequence: show pass -> user clicks continue -> return to scan
+=======
+        # IMPORTANT: Show scan window BEFORE closing test window
+        # This ensures there's always a visible window, preventing Qt event loop exit
+>>>>>>> dc802726279b639511383d34ced0ddfdf896d6f0
         try:
             if hasattr(self, '_return_to_scan_callback') and self._return_to_scan_callback:
                 self._return_to_scan_callback()

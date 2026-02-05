@@ -10,12 +10,19 @@ from PyQt6 import QtWidgets, QtCore, QtGui
 class TestPassedDialog(QtWidgets.QDialog):
     """Dialog shown when test passes"""
     
+<<<<<<< HEAD
     def __init__(self, parent=None, work_order: str = "", part_number: str = ""):
         super().__init__(parent)
         self.work_order = work_order
         self.part_number = part_number
         self.print_timer = None  # Track timer for cleanup
         self.print_triggered = False  # Ensure print only happens once
+=======
+    def __init__(self, parent=None, print_callback=None):
+        super().__init__(parent)
+        self.print_callback = print_callback
+        self._print_triggered = False
+>>>>>>> dc802726279b639511383d34ced0ddfdf896d6f0
         self.setWindowTitle("Test Passed")
         self.setModal(True)
         self.setMinimumSize(400, 300)
@@ -99,6 +106,7 @@ class TestPassedDialog(QtWidgets.QDialog):
         self.setLayout(layout)
     
     def showEvent(self, event):
+<<<<<<< HEAD
         """Trigger print when dialog is shown (avoids race conditions with timer)."""
         try:
             super().showEvent(event)
@@ -128,6 +136,18 @@ class TestPassedDialog(QtWidgets.QDialog):
     
     @staticmethod
     def show_passed(parent=None, work_order: str = "", part_number: str = "") -> bool:
+=======
+        """Override showEvent to trigger print 1 second after dialog appears"""
+        super().showEvent(event)
+        # Only trigger print once
+        if self.print_callback and not self._print_triggered:
+            self._print_triggered = True
+            # Schedule print for 1 second after dialog appears
+            QtCore.QTimer.singleShot(1000, self.print_callback)
+    
+    @staticmethod
+    def show_passed(parent=None, work_order: str = "", part_number: str = "", print_callback=None) -> bool:
+>>>>>>> dc802726279b639511383d34ced0ddfdf896d6f0
         """
         Show the test passed dialog and trigger QC printing.
         
@@ -136,18 +156,29 @@ class TestPassedDialog(QtWidgets.QDialog):
             work_order: Work order number for QC label
             part_number: Part number for QC label
         
+        Args:
+            parent: Parent widget
+            work_order: Work order number (for printing, if needed)
+            part_number: Part number (for printing, if needed)
+            print_callback: Optional callback to trigger printing 1 second after dialog appears
+        
         Returns:
             True when user clicks CONTINUE
         """
+<<<<<<< HEAD
         dialog = TestPassedDialog(parent, work_order, part_number)
         
         # Print is triggered automatically in showEvent
+=======
+        dialog = TestPassedDialog(parent, print_callback=print_callback)
+>>>>>>> dc802726279b639511383d34ced0ddfdf896d6f0
         result = dialog.exec()
         
         # Give print thread a moment to start before window transitions
         QtCore.QThread.msleep(50)
         
         return result == QtWidgets.QDialog.DialogCode.Accepted
+<<<<<<< HEAD
     
     @staticmethod
     def _trigger_print(work_order: str, part_number: str) -> None:
@@ -167,3 +198,10 @@ class TestPassedDialog(QtWidgets.QDialog):
             thread.start()
         except Exception as e:
             print(f"Failed to trigger QC print: {e}")
+=======
+        dialog = TestPassedDialog(parent)
+        dialog.open()  # Use open() instead of exec() - non-blocking but still modal
+        # Note: open() returns immediately, dialog stays visible until user clicks CONTINUE
+        # The accepted/rejected signals will fire when user interacts with dialog
+        return True
+>>>>>>> dc802726279b639511383d34ced0ddfdf896d6f0

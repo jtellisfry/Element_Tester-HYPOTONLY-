@@ -1,5 +1,5 @@
-('L:\\Test Engineering\\Tester '
- 'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\build\\ElementTester\\ElementTester.pkg',
+('C:\\Files\\Element '
+ 'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\build\\ElementTester\\ElementTester.pkg',
  {'BINARY': True,
   'DATA': True,
   'EXECUTABLE': True,
@@ -11,56 +11,52 @@
   'SYMLINK': False},
  [('pyi-contents-directory _internal', '', 'OPTION'),
   ('PYZ-00.pyz',
-   'L:\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\build\\ElementTester\\PYZ-00.pyz',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\build\\ElementTester\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
-   'L:\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\build\\ElementTester\\localpycs\\struct.pyc',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\build\\ElementTester\\localpycs\\struct.pyc',
    'PYMODULE'),
   ('pyimod01_archive',
-   'L:\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\build\\ElementTester\\localpycs\\pyimod01_archive.pyc',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\build\\ElementTester\\localpycs\\pyimod01_archive.pyc',
    'PYMODULE'),
   ('pyimod02_importers',
-   'L:\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\build\\ElementTester\\localpycs\\pyimod02_importers.pyc',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\build\\ElementTester\\localpycs\\pyimod02_importers.pyc',
    'PYMODULE'),
   ('pyimod03_ctypes',
-   'L:\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\build\\ElementTester\\localpycs\\pyimod03_ctypes.pyc',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\build\\ElementTester\\localpycs\\pyimod03_ctypes.pyc',
    'PYMODULE'),
   ('pyimod04_pywin32',
-   'L:\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\build\\ElementTester\\localpycs\\pyimod04_pywin32.pyc',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\build\\ElementTester\\localpycs\\pyimod04_pywin32.pyc',
    'PYMODULE'),
   ('pyiboot01_bootstrap',
-   'L:\\Test Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
    'PYSOURCE'),
   ('pyi_rth_inspect',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test '
-   'Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
-   'PYSOURCE'),
-  ('pyi_rth_pyqt6',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test '
-   'Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt6.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
   ('pyi_rth_pkgutil',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test '
-   'Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt6',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt6.py',
    'PYSOURCE'),
   ('pyi_rth_multiprocessing',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test '
-   'Engineering\\Tellis\\Company\\IMPORTANT\\Element '
-   'Tester\\pythonver\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
    'PYSOURCE'),
   ('test_runner',
-   '\\\\fryfs001v\\eng\\DEPTS\\LAB\\Test Engineering\\Tester '
-   'Information\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\core\\test_runner.py',
+   'C:\\Files\\Element '
+   'Tester\\ElementTester(Python)(HYPOTONLY)\\Element_Tester\\src\\element_tester\\system\\core\\test_runner.py',
    'PYSOURCE')],
  'python313.dll',
  True,

@@ -1,0 +1,45 @@
+Timestamp: 2026-02-03T11:11:10
+Mode: normal
+Work Order #: testing
+Part #: testing
+Configuration: {'voltage': 208, 'wattage': 7000, 'resistance_range': (9.1, 9.8)}
+Hypot Result: 01,ACW,PASS,1.29,2.410,2.0
+Measurement Result: LP1to6:  | LP2to5:  | LP3to4:  | RP1to6:  | RP2to5:  | RP3to4:
+Overall: PASS
+------------------------------------------------------------
+Timestamp: 2026-02-03T11:12:15
+Mode: normal
+Work Order #: testing
+Part #: testimg
+Configuration: {'voltage': 208, 'wattage': 7000, 'resistance_range': (9.1, 9.8)}
+Hypot Result: 01,ACW,PASS,1.28,2.408,2.0
+Measurement Result: LP1to6:  | LP2to5:  | LP3to4:  | RP1to6:  | RP2to5:  | RP3to4:
+Overall: PASS
+------------------------------------------------------------
+Timestamp: 2026-02-03T11:13:09
+Mode: normal
+Work Order #: tsetingtset
+Part #: sitnasdf
+Configuration: {'voltage': 208, 'wattage': 7000, 'resistance_range': (9.1, 9.8)}
+Hypot Result: 01,ACW,PASS,1.29,2.413,2.0
+Measurement Result: LP1to6:  | LP2to5:  | LP3to4:  | RP1to6:  | RP2to5:  | RP3to4:
+Overall: PASS
+------------------------------------------------------------
+Timestamp: 2026-02-03T11:50:27
+Mode: normal
+Work Order #: 075176001
+Part #: 8074600
+Configuration: {'voltage': 240, 'wattage': 7000, 'resistance_range': (5.5, 5.95)}
+Hypot Result: 01,ACW,PASS,1.29,2.409,2.0
+Measurement Result: LP1to6:  | LP2to5:  | LP3to4:  | RP1to6:  | RP2to5:  | RP3to4:
+Overall: PASS
+------------------------------------------------------------
+Timestamp: 2026-02-03T11:57:38
+Mode: normal
+Work Order #: 074768001
+Part #: 8074605
+Configuration: {'voltage': 230, 'wattage': 8500, 'resistance_range': (9.0, 9.8)}
+Hypot Result: 01,ACW,PASS,1.29,3.115,2.0
+Measurement Result: LP1to6:  | LP2to5:  | LP3to4:  | RP1to6:  | RP2to5:  | RP3to4:
+Overall: PASS
+------------------------------------------------------------

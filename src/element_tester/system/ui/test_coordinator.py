@@ -176,8 +176,15 @@ class TestCoordinator:
         This is called after test passes and user clicks continue on success dialog.
         Hides test window and shows scan window.
         """
+        # Process events to ensure dialog is fully closed
+        self._process_events()
+        
         # Hide test window
         self.hide_test_window()
+        
+        # Small delay to ensure window hide completes
+        QtWidgets.QApplication.processEvents()
+        
         # Show scan window
         self.show_scan_window()
     
@@ -365,13 +372,25 @@ class TestCoordinator:
         """
         try:
             from element_tester.system.widgets.test_passed import TestPassedDialog
+            
+            # Ensure test window exists before showing dialog
+            if not self.test_window:
+                print(f"ERROR: Test window is None when trying to show passed dialog")
+                return
+                
             try:
                 TestPassedDialog.show_passed(parent=self.test_window, work_order=work_order, part_number=part_number)
-            except TypeError:
+            except TypeError as e:
+                print(f"TypeError showing passed dialog with WO/PN: {e}")
                 # Fallback if older signature present
-                TestPassedDialog.show_passed(parent=self.test_window)
+                try:
+                    TestPassedDialog.show_passed(parent=self.test_window)
+                except Exception as e2:
+                    print(f"Fallback show_passed also failed: {e2}")
         except Exception as e:
             print(f"Could not show test passed dialog: {e}")
+            import traceback
+            traceback.print_exc()
     
     def show_hipot_failed_dialog(self, failure_message: str) -> str:
         """

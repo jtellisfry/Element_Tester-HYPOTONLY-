@@ -1,25 +1,21 @@
 # Element Tester – AI Coding Agent Instructions
 
 ## Project Overview
-**Element Tester** is a PyQt6-based high-voltage test automation system combining two instrument drivers:
+**Element Tester (HYPOT-ONLY Version)** is a PyQt6-based high-voltage test automation system for testing heating elements using:
 - **AR 3865 Hipot Tester** (SCPI-controlled via VISA/serial)
-- **MCC USB-ERB08 Relay Board** (digital I/O control via mcculw)
+
+**IMPORTANT: This is a HYPOT-ONLY version**:
+- **NO measurement/resistance testing** - removed from this version
+- **NO relay operations** - hipot instrument runs stored test files directly
+- **Workflow**: Scan (WO/PN) → Configure (voltage/wattage) → Hipot Test → Print QC Sticker → Return to Scan
 
 Results are logged to `data/results/` in both JSON and human-readable formats. The application supports **simulate mode** for development without hardware.
 
-### Hardware Under Test (DUT) Configuration
-The Element Tester measures resistance across a heating element with two connectors wired in parallel:
-- **6-pin connector (L side)**: All 6 pins populated
-- **9-pin connector (R side)**: Only pins 1-6 populated (pins 7-9 unused)
-- **Parallel wiring**: Pin 1 on 6-pin tied to Pin 1 on 9-pin, Pin 2 to Pin 2, etc.
-
-**Pin Measurement Terminology**:
-When referring to "Pin 1 to 6", "Pin 2 to 5", and "Pin 3 to 4", this means:
-- **Pin 1 to 6**: Measuring resistance between physical pins 1 and 6 on both connectors
-- **Pin 2 to 5**: Measuring resistance between physical pins 2 and 5 on both connectors  
-- **Pin 3 to 4**: Measuring resistance between physical pins 3 and 4 on both connectors
-
-Because the connectors are wired in parallel, a single resistance measurement represents both the L (6-pin) and R (9-pin) connectors simultaneously. This is why measurement results populate **both** L and R columns with the same value (e.g., LP1to6=6.8Ω and RP1to6=6.8Ω from a single reading).
+**REMOVED from HYPOT-ONLY version:**
+- Resistance/measurement testing (no multimeter integration)
+- Relay board operations (no MCC USB-ERB08 usage)
+- Pin-to-pin resistance measurements
+- Left/Right connector measurement displays (UI exists but not populated)
 
 
 ---
@@ -48,26 +44,39 @@ Each driver follows a three-layer pattern:
 
 ---
 
-## Key Files & Workflows
+## Key Files & Workflows (HYPOT-ONLY)
 
 ### Main Test Orchestration
 - **`src/element_tester/system/core/test_runner.py`**: Top-level test sequencer
   - Entry point: `TestRunner.run_full_sequence(ui, work_order, part_number)`
   - Routes to `_run_normal_sequence()` or `_run_demo_sequence()` (WO=TEST, PN=TEST)
-  - Calls `run_hipot()` → `run_measuring()`
+  - **HYPOT-ONLY**: Only calls `run_hipot()`, NO `run_measuring()` call
+  - **NO RELAY OPERATIONS**: Hipot driver runs stored instrument files directly
   - Writes results to `data/results/test_results.{jsonl,txt}`
+  - After hipot PASS: shows dialog → prints QC sticker → returns to scan window
 
 ### UI Layer
 - **`src/element_tester/system/ui/scanning.py`**: Initial scan window (Work Order + Part Number)
   - Emits `scanCompleted` signal when both fields filled
+- **`src/element_tester/system/ui/configuration_ui.py`**: Configuration dialog (voltage/wattage selection)
+  - Operator selects test parameters before hipot test
 - **`src/element_tester/system/ui/testing.py`**: Main test display
   - Methods: `hypot_ready()`, `hypot_running()`, `hypot_result(passed)`
-  - Methods: `update_measurement(side, row_index, text, passed)`
+  - **NOTE**: Measurement UI sections exist but are NOT used in HYPOT-ONLY version
+- **`src/element_tester/system/widgets/test_passed.py`**: Pass dialog with QC printing
+  - Shows "PASS" screen, triggers print job automatically
+  - Returns to scan window when user clicks CONTINUE
+
+### QC Printing
+- **`src/element_tester/system/procedures/print_qc.py`**: QC label printing logic
+  - Prints to Brother PT-P700 label printer
+  - Triggered automatically when test passed dialog is shown
+  - Runs in background thread to avoid blocking UI
 
 ### Debug Tool
 - **`src/element_tester/system/ui/debug.py`**: Generic debug dialog
   - Accepts dict of `{label: callback}` for radio-button actions
-  - Useful for testing individual relay/hipot sequences
+  - Useful for testing individual hipot commands
 
 ---
 

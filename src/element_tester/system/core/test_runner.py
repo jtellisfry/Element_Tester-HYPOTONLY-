@@ -407,17 +407,7 @@ class TestRunner:
             msg = "Operator cancelled before starting tests"
             return False, msg, {"passed": False, "message": msg}, {}
 
-        # Initialize hipot_detail for error handling (hipot test should run here)
-        hip_detail = {"passed": False, "message": "Hipot test not run"}
-        hip_ok = False
-        hip_msg = "Hipot test not run"
-
-        # Measurement test with unlimited retry logic ---------------------------------------------
-        meas_ok = False
-        meas_msg = ""
-        meas_detail = {}
-        attempt = 0
-        
+        # HIPOT-ONLY: This version only runs hipot test, no measurements
         # Hipot test with unlimited retry logic ---------------------------------------------
         hip_ok = False
         hip_msg = ""
@@ -462,39 +452,43 @@ class TestRunner:
             
             attempt += 1
 
+        # HIPOT-ONLY: Hipot passed, show success dialog and print QC sticker
+        # No measurements needed in this version
         
-        # Both tests passed - show success dialog. Schedule QC printing from the
-        # dialog so the sticker is printed ~1s after the dialog is shown.
+        # Show test passed dialog - QC printing is triggered automatically in showEvent
         try:
             self.coordinator.show_test_passed_dialog(wo, pn)
-        except Exception:
+        except Exception as e:
+            self.log.error(f"Failed to show test passed dialog: {e}", exc_info=True)
+            # Fallback: try direct dialog call
             if TestPassedDialog:
                 try:
                     TestPassedDialog.show_passed(parent=self.coordinator.get_test_window(), work_order=wo, part_number=pn)
-                except TypeError:
-                    TestPassedDialog.show_passed(parent=self.coordinator.get_test_window())
+                except Exception as e2:
+                    self.log.error(f"Fallback dialog also failed: {e2}", exc_info=True)
+                    try:
+                        TestPassedDialog.show_passed(parent=self.coordinator.get_test_window())
+                    except Exception:
+                        pass
 
-        # QC printing is scheduled from the TestPassedDialog to occur
-        # ~1 second after the dialog is shown. No additional action needed here.
+        # Process any remaining Qt events before window transitions
+        QtWidgets.QApplication.processEvents()
 
         # Reset all hardware after successful test
         self._reset_hardware()
 
-        # IMPORTANT: Show scan window BEFORE closing test window
-        # This ensures there's always a visible window, preventing Qt event loop exit
-        if hasattr(self, '_return_to_scan_callback') and self._return_to_scan_callback:
-            self._return_to_scan_callback()
-        
-        # Now close test window (scan window is already visible)
+        # IMPORTANT: AFTER dialog is dismissed, transition back to scan window
+        # This ensures proper sequence: show pass -> user clicks continue -> return to scan
         try:
             if hasattr(self, '_return_to_scan_callback') and self._return_to_scan_callback:
                 self._return_to_scan_callback()
             else:
                 self.coordinator.complete_test_and_return_to_scan()
-        except Exception:
-            pass
+        except Exception as e:
+            self.log.error(f"Failed to return to scan window: {e}", exc_info=True)
 
-        return True, "Hipot completed successfully", hip_detail, meas_detail
+        # Return empty dict for measurement details (not used in HYPOT-ONLY version)
+        return True, "Hipot test completed successfully", hip_detail, {}
 
     def _run_demo_sequence(
         self,
@@ -582,6 +576,7 @@ class TestRunner:
         Returns (passed, message, detail_dict).
         """
         self.log.info(f"HIPOT start | WO={work_order} | PN={part_number}")
+        self.log.info(f"HIPOT mode check | simulate={simulate} | hipot_driver={'available' if self.hipot_driver else 'None'}")
 
         self.coordinator.show_hipot_ready()
         time.sleep(0.2)
@@ -590,7 +585,8 @@ class TestRunner:
         self.coordinator.append_hipot_log("Checking Hipot connections...")
         time.sleep(0.5)
 
-        if simulate or self.hipot_test_seq is None:
+        # Check if we have the hipot DRIVER (not hipot_test_seq) for real hardware
+        if simulate or self.hipot_driver is None:
             # Simulated behavior
             self.coordinator.append_hipot_log("Step 1/5: Reset instrument (SIM)")
             time.sleep(0.8)

@@ -645,3 +645,39 @@ Hypot Result: Simulated Hipot PASS
 Measurement Result: LP1to6:  | LP2to5:  | LP3to4:  | RP1to6:  | RP2to5:  | RP3to4:
 Overall: PASS
 ------------------------------------------------------------
+Timestamp: 2026-02-02T15:27:48
+Mode: normal
+Work Order #: testing
+Part #: testing
+Configuration: {'voltage': 208, 'wattage': 7000, 'resistance_range': (9.1, 9.8)}
+Hypot Result: Exception: Run from file failed: pyserial not installed (required for serial:// resources)
+Measurement Result: LP1to6:  | LP2to5:  | LP3to4:  | RP1to6:  | RP2to5:  | RP3to4:
+Overall: FAIL
+------------------------------------------------------------
+Timestamp: 2026-02-02T15:32:51
+Mode: normal
+Work Order #: testing
+Part #: testing
+Configuration: {'voltage': 208, 'wattage': 7000, 'resistance_range': (9.1, 9.8)}
+Hypot Result: Exception: Run from file failed: could not open port 'COM6': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+Measurement Result: LP1to6:  | LP2to5:  | LP3to4:  | RP1to6:  | RP2to5:  | RP3to4:
+Overall: FAIL
+------------------------------------------------------------
+Timestamp: 2026-02-02T16:01:53
+Mode: normal
+Work Order #: testing
+Part #: testing
+Configuration: {'voltage': 208, 'wattage': 7000, 'resistance_range': (9.1, 9.8)}
+Hypot Result: 01,ACW,PASS,1.29,3.099,2.0
+Measurement Result: LP1to6:  | LP2to5:  | LP3to4:  | RP1to6:  | RP2to5:  | RP3to4:
+Overall: PASS
+------------------------------------------------------------
+Timestamp: 2026-02-02T16:32:39
+Mode: normal
+Work Order #: testing
+Part #: testing
+Configuration: {'voltage': 208, 'wattage': 7000, 'resistance_range': (9.1, 9.8)}
+Hypot Result: 01,ACW,PASS,1.29,3.098,2.0
+Measurement Result: LP1to6:  | LP2to5:  | LP3to4:  | RP1to6:  | RP2to5:  | RP3to4:
+Overall: PASS
+------------------------------------------------------------
